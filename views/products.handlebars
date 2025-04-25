@@ -1,0 +1,21 @@
+<h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+                <tr>
+                    <td>{{this.name}}</td>
+                    <td>{{this.price}}</td>
+                    <td>{{this.Description}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+
+    </table>
+</h1>

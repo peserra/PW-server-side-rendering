@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2"
+  }
+}
